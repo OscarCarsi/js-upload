@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subida de archivos con barra de progreso</title>
+    <link href="styles/styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet" />
+    <script defer src="upload.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">Subida de archivos</div>
+        <form action="">
+            <input type="file" class="file-input" name="file" hidden>
+            <i class="fas fa-cloud-upload-alt"></i>
+            <p>Seleccione el archivo a subir</p>
+        </form>
+        <div class="progreso-area"></div>
+        <div class="subido-area"></div>
+    </div>
+</body>
+
+</html>
